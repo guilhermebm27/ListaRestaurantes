@@ -105,23 +105,24 @@ Lista
     <p class="card-text">Cafés, cervejas artesanais e comida de bistrô, além de eventos culturais, em espaço acolhedor cheio de livros.</p>
   </div>
   <script type="text/javascript">
-    function myFunction(){
-      var input, card-title,card-text,card-header, i;
-      input = document.getElementById("bloco");
-      card-title = input.value.toUpperCase();
-      card-text = document.getElementById("bloco");
-      card-header = document.getElementById("bloco");
-      for (i = 0; i < card-header; i++){
-        card-header = card-header[i].getElementById("bloco")[0];
+function myFunction(){
+      var input,card-text,card-title,card-header,i;
+      input = document.getElementById("myInput");
+      card-title = input.getElementClass("bloco");
+      card-text = input.getElementClass("bloco");
+      card-header = input.getElementClass("bloco");
+      for(i = 0; i <card-header.length; i++)
+      {
+        card-header = card-title [i].getElementClass("myInput")[0];
         if (card-header){
-          if (card-header.innerHTML.toUpperCase().indexOf(filter)> -1){
-            card-text[i].style.display="";
+          if (card-header.innerHTML.getElementClass().indexOf(card-text)>-1){
+            card-title[i].style.display="";
           }else{
-            card-text[i].style.display = "none";
-          }
+            card-title[i].style.display="none";
           }
         }
       }
+    } 
 
   </script>
 </div>
