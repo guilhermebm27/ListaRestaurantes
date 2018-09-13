@@ -1,0 +1,129 @@
+# ListaRestaurantes
+Lista
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="stilo.css">
+    <link rel="shortcut icon" href="duo.png" type="image/x-png"/>
+    <title> Lista de restaurantes </title>
+
+  </head>
+  <body>
+      
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-light p-4">
+    </div>
+  </div>
+<nav class="navbar navbar-light bg-light">
+ <a class="navbar-brand"  href="#">
+    <img src="duo.png" width="30" height="30" class="d-inline-block align-top" alt="imagem duo-gourmet">
+    Lista de restaurantes
+  </a>
+
+  <form class="form-inline" method="get" action="">
+    <input class="form-control mr-sm-2" type="text" id="myInput" onkeyup="myFunction()" placeholder="Buscar..." aria-label="Buscar">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+  </form>
+
+</nav>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<p>
+<div class="bloco" style="max-width: 18rem;">
+  <img class="imagem" src="baby.jpg" alt="Imagem baby-beef">
+  <div class="card-header">Baby beef</div>
+  <div class="card-body text-primary">
+    <h5 class="card-title">Av. Cristiano Machado, 4000 - União, Belo Horizonte - MG, 31160-342</h5>
+    <p class="card-text">Rodízio de carnes nobres em churrascaria contemporânea com buffet de sushis e massas e ambiente familiar.</p>
+  </div>
+
+</div>
+<div class="bloco" style="max-width: 18rem;">
+  <img class="imagem" src="fogo-de-chao.jpg" alt="Imagem fogo-de-chao">
+  <div class="card-header">Fogo de chão</div>
+  <div class="card-body text-secondary">
+    <h5 class="card-title">R. Sergipe, 1208 - Savassi, Belo Horizonte - MG, 30130-170</h5>
+    <p class="card-text">O Fogo de Chão é um restaurante especializado em comida brasileira e churrascaria. A Fogo de Chão opera atualmente 35 unidades nos Estados Unidos, 10 no Brasil e 2 no México. O nome Fogo de Chao significa "fogo de chão" e resume o método tradicional gaúcho de assar carnes em fogo aberto. </p>
+  </div>
+</div>
+<div class="bloco" style="max-width: 18rem;">
+  <img class="imagem" src="anella-ristorante.jpg" alt="Imagem anella-ristorante">
+  <div class="card-header">Anella Ristorante</div>
+  <div class="card-body text-success">
+    <h5 class="card-title">Av. Min. Guilhermino de Oliveira, 325 - Santa Amelia, Belo Horizonte - MG, 31560-100</h5>
+    <p class="card-text">Bistrô que serve massas especiais da culinária italiana caseira em ambiente rústico com jardim.</p>
+  </div>
+</div>
+<div class="bloco" style="max-width: 18rem;">
+  <img class="imagem" src="68-la-pizzeria.jpg" alt="Imagem 68-la-pizzeria">
+  <div class="card-header">68 La Pizzeria Pampulha</div>
+  <div class="card-body text-danger">
+    <h5 class="card-title">R. Felipe dos Santos, 68 - Lourdes, Belo Horizonte - MG, 30180-160</h5>
+    <p class="card-text">Pizzas, calzones, focaccias e paninis regionais de estilo napolitano em uma pizzaria sofisticada e espaçosa.</p>
+  </div>
+</div>
+<div class="bloco" style="max-width: 18rem;">
+  <img class="imagem" src="albano.jpg" alt="Imagem albano">
+  <div class="card-header">Albanos Lourdes</div>
+  <div class="card-body text-warning">
+    <h5 class="card-title">R. Rio de Janeiro, 2076 - Lourdes, Belo Horizonte - MG, 30160-042</h5>
+    <p class="card-text">Bar moderno com aperitivos, grelhados e cervejas em uma casa de esquina reformada com atmosfera animada.</p>
+  </div>
+</div>
+<div class="bloco" style="max-width: 18rem;">
+  <img class="imagem" src="alma-chef-alma.jpg" alt="Imagem alma">
+  <div class="card-header">Alma Chef</div>
+  <div class="card-body text-info">
+    <h5 class="card-title">R. Curitiba, 2081 - Lourdes, Belo Horizonte - MG, 30170-122</h5>
+    <p class="card-text">Chefs servem almoços e jantares em ambiente sofisticado, contemporâneo e intimista de escola de gastronomia.</p>
+  </div>
+</div>
+<div class="bloco" style="max-width: 18rem;">
+  <img class="imagem" src="birosca.jpg" alt="Imagem birosca">
+  <div class="card-header">Birosca S2</div>
+  <div class="card-body">
+    <h5 class="card-title">Rua Silvianópolis, 483 - Santa Tereza, Belo Horizonte - MG, 30120-010</h5>
+    <p class="card-text">Boteco alternativo com decoração colorida, gastronomia francesa refinada, sobremesas e música alegre.</p>
+  </div>
+  </div>
+  <div class="bloco" style="max-width: 18rem;">
+  <img class="imagem" src="cafe.jpg" alt="Imagem cafe">
+  <div class="card-header">Café Com Letras - Savassi</div>
+  <div class="card-body text-dark">
+    <h5 class="card-title">R. Antônio de Albuquerque, 781 - Savassi, Belo Horizonte - MG, 30112-010</h5>
+    <p class="card-text">Cafés, cervejas artesanais e comida de bistrô, além de eventos culturais, em espaço acolhedor cheio de livros.</p>
+  </div>
+  <script type="text/javascript">
+    function myFunction(){
+      var input, card-title,card-text,card-header, i;
+      input = document.getElementById("bloco");
+      card-title = input.value.toUpperCase();
+      card-text = document.getElementById("bloco");
+      card-header = document.getElementById("bloco");
+      for (i = 0; i < card-header; i++){
+        card-header = card-header[i].getElementById("bloco")[0];
+        if (card-header){
+          if (card-header.innerHTML.toUpperCase().indexOf(filter)> -1){
+            card-text[i].style.display="";
+          }else{
+            card-text[i].style.display = "none";
+          }
+          }
+        }
+      }
+
+  </script>
+</div>
+</body>
+</html>
