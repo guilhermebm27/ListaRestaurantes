@@ -1,0 +1,40 @@
+# ListaRestaurantes
+Lista@charset "utf-8";
+
+body
+{
+	margin: 1px;
+	padding: 1px;
+
+}
+
+.bloco
+{
+	float:left;
+	width: 253%;
+	height: 203px;
+	margin-left: 2%;
+	background-color: white;
+	margin-bottom: 440px;
+
+}
+.imagem
+{
+	width: 287px;
+    height: 200px;
+    background-color: white; 
+    margin: 2px 2px 2px 2;
+    display:inline-block;
+}
+
+.form-inline 
+{
+    border: none;
+}
+
+.form-inline:hover, .form-inline:active, .form-inline:focus
+{
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
