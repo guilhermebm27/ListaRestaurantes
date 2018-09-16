@@ -105,25 +105,24 @@ Lista
     <p class="card-text">Cafés, cervejas artesanais e comida de bistrô, além de eventos culturais, em espaço acolhedor cheio de livros.</p>
   </div>
   <script type="text/javascript">
-function myFunction(){
-      var input,card-text,card-title,card-header,i;
-      input = document.getElementById("myInput");
-      card-title = input.getElementClass("bloco");
-      card-text = input.getElementClass("bloco");
-      card-header = input.getElementClass("bloco");
-      for(i = 0; i <card-header.length; i++)
-      {
-        card-header = card-title [i].getElementClass("myInput")[0];
-        if (card-header){
-          if (card-header.innerHTML.getElementClass().indexOf(card-text)>-1){
-            card-title[i].style.display="";
-          }else{
-            card-title[i].style.display="none";
-          }
-        }
-      }
-    } 
+    $(function(){ 
 
+  $("#myInput").keyup(function(){
+    var texto = $(this).val();
+    
+    $(".bloco").each(function(){
+      var resultado = $(this).text().toUpperCase().indexOf(' '+texto.toUpperCase());
+      
+      if(resultado < 0) {
+        $(this).fadeOut();
+      }else {
+        $(this).fadeIn();
+      }
+    }); 
+
+  });
+
+});
   </script>
 </div>
 </body>
